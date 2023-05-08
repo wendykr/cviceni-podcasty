@@ -42,7 +42,7 @@ const renderPodcast = (items) => {
   const episodesListElm = document.querySelector('.episodes-list');
 
   episodesListElm.innerHTML = items
-    .map(oneEpisodes => Podcast(oneEpisodes))
+    .map(oneEpisode => Podcast(oneEpisode))
     .join('');
 }
 
